@@ -1,0 +1,41 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+    justify-content: center;
+    background-color: rgb(207, 241, 10);
+    width: 500px;
+    height: 500px;
+    align-content: center;
+    
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+}
+
+#reset {
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+}
+
+#ultraContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.gridboxes {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
