@@ -14,26 +14,18 @@
 
 #options {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
-#reset {
-    font-weight: 900;
-    font-size: 17px;
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-}
 
-#gridChoice {
-    font-weight: 900;
-    font-size: 17px;
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-}
 
 button {
     margin: 10px;
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    background-color: rgb(255, 255, 255)
 }
 
 
